@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7611B42320C9559A0042555E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611B42220C9559A0042555E /* main.m */; };
+		7611B42C20C957820042555E /* CarLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611B42B20C957820042555E /* CarLight.m */; };
+		7611B42F20C957AD0042555E /* CarEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611B42E20C957AD0042555E /* CarEngine.m */; };
+		7611B43220C957ED0042555E /* CarAirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611B43120C957ED0042555E /* CarAirConditioner.m */; };
+		7611B43520C958F20042555E /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611B43420C958F20042555E /* Command.m */; };
+		7611B43820C9596E0042555E /* StartDriveCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611B43720C9596E0042555E /* StartDriveCommand.m */; };
+		7611B43B20C9597D0042555E /* StopDriveCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611B43A20C9597D0042555E /* StopDriveCommand.m */; };
+		7611B43E20C959FE0042555E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611B43D20C959FE0042555E /* Car.m */; };
+		7611B44120C95BE50042555E /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611B44020C95BE50042555E /* Invoker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7611B41D20C9559A0042555E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7611B41F20C9559A0042555E /* 命令模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "命令模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7611B42220C9559A0042555E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7611B42920C957550042555E /* Reciver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reciver.h; sourceTree = "<group>"; };
+		7611B42A20C957820042555E /* CarLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarLight.h; sourceTree = "<group>"; };
+		7611B42B20C957820042555E /* CarLight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarLight.m; sourceTree = "<group>"; };
+		7611B42D20C957AD0042555E /* CarEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarEngine.h; sourceTree = "<group>"; };
+		7611B42E20C957AD0042555E /* CarEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarEngine.m; sourceTree = "<group>"; };
+		7611B43020C957ED0042555E /* CarAirConditioner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarAirConditioner.h; sourceTree = "<group>"; };
+		7611B43120C957ED0042555E /* CarAirConditioner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarAirConditioner.m; sourceTree = "<group>"; };
+		7611B43320C958F20042555E /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		7611B43420C958F20042555E /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		7611B43620C9596E0042555E /* StartDriveCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartDriveCommand.h; sourceTree = "<group>"; };
+		7611B43720C9596E0042555E /* StartDriveCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartDriveCommand.m; sourceTree = "<group>"; };
+		7611B43920C9597D0042555E /* StopDriveCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopDriveCommand.h; sourceTree = "<group>"; };
+		7611B43A20C9597D0042555E /* StopDriveCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopDriveCommand.m; sourceTree = "<group>"; };
+		7611B43C20C959FE0042555E /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		7611B43D20C959FE0042555E /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		7611B43F20C95BE50042555E /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		7611B44020C95BE50042555E /* Invoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7611B41C20C9559A0042555E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7611B41620C9559A0042555E = {
+			isa = PBXGroup;
+			children = (
+				7611B42120C9559A0042555E /* 命令模式 */,
+				7611B42020C9559A0042555E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7611B42020C9559A0042555E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7611B41F20C9559A0042555E /* 命令模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7611B42120C9559A0042555E /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				7611B42220C9559A0042555E /* main.m */,
+				7611B42920C957550042555E /* Reciver.h */,
+				7611B42A20C957820042555E /* CarLight.h */,
+				7611B42B20C957820042555E /* CarLight.m */,
+				7611B42D20C957AD0042555E /* CarEngine.h */,
+				7611B42E20C957AD0042555E /* CarEngine.m */,
+				7611B43020C957ED0042555E /* CarAirConditioner.h */,
+				7611B43120C957ED0042555E /* CarAirConditioner.m */,
+				7611B43C20C959FE0042555E /* Car.h */,
+				7611B43D20C959FE0042555E /* Car.m */,
+				7611B43320C958F20042555E /* Command.h */,
+				7611B43420C958F20042555E /* Command.m */,
+				7611B43620C9596E0042555E /* StartDriveCommand.h */,
+				7611B43720C9596E0042555E /* StartDriveCommand.m */,
+				7611B43920C9597D0042555E /* StopDriveCommand.h */,
+				7611B43A20C9597D0042555E /* StopDriveCommand.m */,
+				7611B43F20C95BE50042555E /* Invoker.h */,
+				7611B44020C95BE50042555E /* Invoker.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7611B41E20C9559A0042555E /* 命令模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7611B42620C9559A0042555E /* Build configuration list for PBXNativeTarget "命令模式" */;
+			buildPhases = (
+				7611B41B20C9559A0042555E /* Sources */,
+				7611B41C20C9559A0042555E /* Frameworks */,
+				7611B41D20C9559A0042555E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "命令模式";
+			productName = "命令模式";
+			productReference = 7611B41F20C9559A0042555E /* 命令模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7611B41720C9559A0042555E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = WuPeng;
+				TargetAttributes = {
+					7611B41E20C9559A0042555E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 7611B41A20C9559A0042555E /* Build configuration list for PBXProject "命令模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7611B41620C9559A0042555E;
+			productRefGroup = 7611B42020C9559A0042555E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7611B41E20C9559A0042555E /* 命令模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7611B41B20C9559A0042555E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7611B42320C9559A0042555E /* main.m in Sources */,
+				7611B42F20C957AD0042555E /* CarEngine.m in Sources */,
+				7611B43220C957ED0042555E /* CarAirConditioner.m in Sources */,
+				7611B42C20C957820042555E /* CarLight.m in Sources */,
+				7611B43520C958F20042555E /* Command.m in Sources */,
+				7611B43820C9596E0042555E /* StartDriveCommand.m in Sources */,
+				7611B44120C95BE50042555E /* Invoker.m in Sources */,
+				7611B43E20C959FE0042555E /* Car.m in Sources */,
+				7611B43B20C9597D0042555E /* StopDriveCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7611B42420C9559A0042555E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7611B42520C9559A0042555E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7611B42720C9559A0042555E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7611B42820C9559A0042555E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7611B41A20C9559A0042555E /* Build configuration list for PBXProject "命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7611B42420C9559A0042555E /* Debug */,
+				7611B42520C9559A0042555E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7611B42620C9559A0042555E /* Build configuration list for PBXNativeTarget "命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7611B42720C9559A0042555E /* Debug */,
+				7611B42820C9559A0042555E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7611B41720C9559A0042555E /* Project object */;
+}
