@@ -13,4 +13,6 @@
 - (void)work;
 - (void)shutDown;
 
+- (void)undo;
+
 @end

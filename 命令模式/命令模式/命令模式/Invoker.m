@@ -16,4 +16,10 @@
     }
 }
 
+- (void)undoAction {
+    if (_command) {
+        [_command undo];
+    }
+}
+
 @end

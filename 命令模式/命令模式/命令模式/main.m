@@ -24,6 +24,7 @@ int main(int argc, const char * argv[]) {
         
         invoker.command = stopDriveCommand;
         [invoker doAction];
+        [invoker undoAction];
         
     }
     return 0;

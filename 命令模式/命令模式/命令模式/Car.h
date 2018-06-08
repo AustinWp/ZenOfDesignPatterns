@@ -7,14 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CarLight.h"
-#import "CarEngine.h"
-#import "CarAirConditioner.h"
+#import "Reciver.h"
 
 @interface Car : NSObject <Reciver>
-
-@property (nonatomic, strong) CarLight *carLight;
-@property (nonatomic, strong) CarEngine *carEngine;
-@property (nonatomic, strong) CarAirConditioner *carAirConditioner;
 
 @end

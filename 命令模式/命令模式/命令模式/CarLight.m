@@ -17,4 +17,8 @@
     NSLog(@"CarLight shut down!");
 }
 
+- (void)undo {
+    NSLog(@"CarLight undo!");
+}
+
 @end

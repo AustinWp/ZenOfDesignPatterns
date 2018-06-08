@@ -14,4 +14,8 @@
     [self.car shutDown];
 }
 
+- (void)undo {
+    [self.car undo];
+}
+
 @end

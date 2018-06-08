@@ -17,4 +17,8 @@
     NSLog(@"CarEngine shut down!");
 }
 
+- (void)undo {
+    NSLog(@"CarEngine undo!");
+}
+
 @end

@@ -14,5 +14,6 @@
 @property (nonatomic, strong) Command *command;
 
 - (void)doAction;
+- (void)undoAction;
 
 @end

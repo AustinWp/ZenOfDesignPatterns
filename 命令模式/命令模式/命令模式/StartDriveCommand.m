@@ -14,4 +14,8 @@
     [self.car work];
 }
 
+- (void)undo {
+    [self.car undo];
+}
+
 @end

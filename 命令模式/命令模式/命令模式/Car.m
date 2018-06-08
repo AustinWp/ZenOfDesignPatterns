@@ -7,6 +7,17 @@
 //
 
 #import "Car.h"
+#import "CarLight.h"
+#import "CarEngine.h"
+#import "CarAirConditioner.h"
+
+@interface Car()
+
+@property (nonatomic, strong) CarLight *carLight;
+@property (nonatomic, strong) CarEngine *carEngine;
+@property (nonatomic, strong) CarAirConditioner *carAirConditioner;
+
+@end
 
 @implementation Car
 
@@ -29,6 +40,12 @@
     [_carLight shutDown];
     [_carEngine shutDown];
     [_carAirConditioner shutDown];
+}
+
+- (void)undo {
+    [_carLight undo];
+    [_carEngine undo];
+    [_carAirConditioner undo];
 }
 
 @end

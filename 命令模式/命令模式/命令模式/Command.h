@@ -14,5 +14,6 @@
 @property (nonatomic, strong) Car *car;
 
 - (void)execute;
+- (void)undo;
 
 @end

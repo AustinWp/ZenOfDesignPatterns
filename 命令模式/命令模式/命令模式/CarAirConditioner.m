@@ -16,5 +16,8 @@
 - (void)shutDown {
     NSLog(@"CarAirConditioner shut down!");
 }
+- (void)undo {
+    NSLog(@"CarAirConditioner undo!");
+}
 
 @end
